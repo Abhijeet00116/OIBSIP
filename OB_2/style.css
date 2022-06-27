@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
+    text-decoration: none;
+}
+body{
+    overflow-x:hidden ;
+}
+.main-width{
+    width: 1280px;
+    max-width: 95%;
+    margin:0 auto;
+    padding:0px 20px;
+}
+.head{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url(background.jpg);
+    background-size: center;
+    position: relative;
+}
+header{
+    padding:40px 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;   
+}
+.logo{
+    height: 55px;
+    width: 55px;
+    background: transparent;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+
+nav .nav-list{list-style: none;}
+
+nav .nav-list li{
+    display: inline-block;
+}
+ nav .nav-list a{
+    display: inline-block;
+    color: rgb(23, 23, 18);
+    margin-left: 55px;
+    font-size: 15px;
+    font-weight: 600;
+ }
+ 
+ 
+ nav .nav-list a:hover{
+    color: gray;
+    transition: .3s;
+ }
+
+.container{
+    padding-top: 121px;
+    margin-left: 3vw;
+}
+.container .head-text{
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.container .head-text h1 span{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 20px 0px;
+}
+
+.social a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.social a:hover{
+    color: rgb(26, 23, 27);
+}
+
+.my_social{
+    margin-top: 155px;
+    display: inline-flex;
+}
+.resume{
+    margin-top:30px;
+    display: inline-flex;
+}
+.resume i{
+    margin-top: 1.2px;
+}
+.btn {
+    color: rgb(171, 78, 214);
+    background: transparent;
+    border:2px solid #AB00D6;
+    padding: 9px 28px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.btn:hover{
+    color: rgb(211, 209, 211);
+    background-color: rgb(202, 130, 238);
+}
+.social_media{
+    margin-top: 5px;
+    margin-left: 40vw;
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
